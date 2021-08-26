@@ -1,5 +1,5 @@
 ***TASK***
-- create Dockerfile for backend service (command to run backend `python manage.py runserver`)
+- create Dockerfile for backend service (command to run backend `python manage.py runserver 0.0.0.0:8000`)
 - create Dockerfile1 for frontend service (command to run frontend `yarn start`)
 - create docker-compose file with `backend`, `frontend`, `nginx` and `postgres` services (nginx should be linked to `8080` port)
 
